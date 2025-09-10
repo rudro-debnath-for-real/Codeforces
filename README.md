@@ -1,2 +1,4 @@
 # Codeforces
-Here I'll upload codeforces problem solutions by me.
+Here I'll upload codeforces problem solutions.
+<br>
+Author - Rudro Debnath
