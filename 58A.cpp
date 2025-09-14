@@ -12,18 +12,18 @@ int main()
     string h = "hello";
     cin >> s;
     int ss = s.size();
-    int cnt = 0, j = 0;
+    int cnt = 0, j = 0, k = 0;
     for (int i = 0; i < h.size(); i++)
     {
-        while (j < ss)
+        for (j = k; j < ss; j++)
         {
             if (h[i] == s[j])
             {
                 cnt++;
-                j++;
+                k++;
                 break;
             }
-            j++;
+            k++;
         }
         if (cnt == h.size())
             break;
