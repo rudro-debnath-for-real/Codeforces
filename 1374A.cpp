@@ -40,14 +40,9 @@ void solve()
 {
     int x, y, n;
     cin >> x >> y >> n;
-    while (true)
-    {
-        if (n % x == y)
-            break;
-        else
-            n--;
-    }
-    cout << n << endl;
+    int u=(n-y)/x;
+    int ans = u*x+y;
+    cout << ans << endl;
 }
 
 int main()
@@ -62,3 +57,4 @@ int main()
     }
     return 0;
 }
+    
